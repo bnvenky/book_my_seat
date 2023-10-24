@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.bg-container {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seatingArrangement {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.unavailable {
+  background-color: black;
+}
+
+.selection {
+  background-color: green;
+}
+
+.button {
+  background-color: red;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.seat-layout {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.head {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.available {
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+  }
+
+  .text,
+  select {
+    font-size: 14px;
+  }
+
+  .head {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .seat {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+  }
+
+  .button {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
